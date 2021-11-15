@@ -25,7 +25,7 @@ public class Usuario {
 	private String usuario;
 	
 	@NotBlank (message = "Deve inserir uma senha.")
-	@Size(min = 5, max = 100, message = "Tamanho mínimo de 5 e máximo de 100.")
+	@Size(min = 2, message = "Tamanho mínimo de 2.")
 	private String senha;
 
 	public long getId() {
